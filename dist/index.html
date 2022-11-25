@@ -8,13 +8,25 @@
   <script src="./main.js" defer></script>
 </head>
 <body>
-  <h1>Colors slider</h1>
+  <h1 id="title">Image slider</h1>
   <div class="slider-container">
-    <div class="image"></div>
+    <div class="image">
+      <img class="img" id="img-1">
+      <img class="img" id="img-2">
+      <img class="img" id="img-3">
+      <img class="img" id="img-4">
+      <img class="img" id="img-5">
+    </div>
     <div class="controls">
-      <button id="backward"></button>
-      <div class="navigation-dots"></div>
-      <button id="forward"></button>
+      <button id="backward"><img></button>
+      <div class="navigation-dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <button id="forward"><img></button>
     </div>
   </div>
 </body>
